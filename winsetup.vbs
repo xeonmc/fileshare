@@ -52,6 +52,11 @@ Function MainDialogue()
             objRegistry.SetDWORDValue  hiveTarget, "Software\Microsoft\Windows\CurrentVersion\Themes\Personalize", "SystemUsesLightTheme", 0 'default to darktheme
             objRegistry.SetDWORDValue  hiveTarget, "Software\Microsoft\Windows\CurrentVersion\Search", "SearchboxTaskbarMode", 0 ' hide search bar
             objRegistry.SetDWORDValue  hiveTarget, "Software\Microsoft\Multimedia\Audio", "UserDuckingPreference", 3 ' don't lower system volume when there's communication audio
+            objRegistry.SetDWORDValue  hiveTarget, "System\GameConfigStore", "GameDVR_Enabled", 1 ' 
+            objRegistry.SetDWORDValue  hiveTarget, "System\GameConfigStore", "GameDVR_FSEBehavior", 2 ' 
+            objRegistry.SetDWORDValue  hiveTarget, "System\GameConfigStore", "GameDVR_FSEBehaviorMode", 2 ' 
+            objRegistry.SetDWORDValue  hiveTarget, "System\GameConfigStore", "GameDVR_HonorUserFSEBehaviorMode", 1 '
+            objRegistry.SetDWORDValue  hiveTarget, "System\GameConfigStore", "GameDVR_DXGIHonorFSEWindowsCompatible", 1 ' 
             ' https://gist.github.com/CHEF-KOCH/ddd1fa24b899ab9fa2d4 for more options
         End If
 
