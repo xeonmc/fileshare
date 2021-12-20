@@ -1,0 +1,1 @@
+nativefier "discordapp.com/app" -p windows -n Discord --portable --background-color '#000000' --disable-dev-tools --single-instance --tray --clear-cache --file-download-options '{"ssveAs": true}' --disable-context-menu
