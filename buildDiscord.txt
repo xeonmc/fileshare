@@ -1,1 +1,0 @@
-nativefier "https://discordapp.com/app" -p windows -n Discord --portable --background-color '#1f2225' --disable-dev-tools --single-instance --tray --file-download-options '{"saveAs": true}' --disable-context-menu --icon ./discord.ico --win32metadata '{"CompanyName":"Discord"}' --maximize
