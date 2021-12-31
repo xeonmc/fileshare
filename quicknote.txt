@@ -1,1 +1,12 @@
 Computer\HKEY_CURRENT_USER\System\CurrentControlSet\Control\MediaProperties\PrivateProperties
+
+
+100% - 1x
+125% - 0.8x
+150% - 66.6%
+175% - 57.1428%
+200% - 50%
+225% - 44.4%
+250% - 40%
+275% - 36.36%
+300% - 33.3%
