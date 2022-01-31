@@ -62,6 +62,7 @@ Function MainDialogue()
 
         ' set tasktray clock and date format (TODO: need to add customization)
         KeyPath = User + "Control Panel\International"
+            objRegistry.SetStringValue hiveTarget, KeyPath, "iMeasure", "0"
             objRegistry.SetStringValue hiveTarget, KeyPath, "sLongDate", "ddd, MMMM d, yyyy"
             objRegistry.SetStringValue hiveTarget, KeyPath, "sShortDate", "ddd yyyy-MM-dd"
             objRegistry.SetStringValue hiveTarget, KeyPath, "sShortTime", "h:mm tt"
