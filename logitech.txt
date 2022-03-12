@@ -1,0 +1,22 @@
+testDistance = 63 -- if each cmd exceeds 127 then gets ignored entirely
+sleeptime = 1     -- if exeeds 100% long frametime then have 100% likelihood of passing. 
+
+function OnEvent(event, arg)
+  if (event =="MOUSE_BUTTON_PRESSED") then
+    if (arg == 4) then
+      MoveMouseRelative(testDistance,0)
+      PressMouseButton(1)
+      Sleep(sleeptime)
+      MoveMouseRelative(2*testDistance,0) -- diff mvmt in case game 'cheats' by avg(prev,next) frame pos
+      Sleep(10) -- proofing against debounce, doesn't affect accuracy since release is irrelevant
+      ReleaseMouseButton(1)
+    elseif (arg == 5) then
+      MoveMouseRelative(-testDistance,0)
+--[[    
+    elseif (arg == 6) then -- test for deviceID
+      MoveMouseTo(32767, 32767) -- sends 0x01 (MOUSE_MOVE_ABSOLUTE) from null handle
+      PressAndReleaseMouseButton(1) -- sends from Logitech Gaming Virtual Mouse
+]]--
+    end
+  end
+end
