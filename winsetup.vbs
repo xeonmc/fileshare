@@ -65,7 +65,7 @@ Function MainDialogue()
             objRegistry.SetStringValue hiveTarget, KeyPath, "iMeasure", "0"
             objRegistry.SetStringValue hiveTarget, KeyPath, "sLongDate", "ddd, MMMM d, yyyy"
             objRegistry.SetStringValue hiveTarget, KeyPath, "sShortDate", "ddd yyyy-MM-dd"
-            objRegistry.SetStringValue hiveTarget, KeyPath, "sShortTime", "h:mm tt"
+            objRegistry.SetStringValue hiveTarget, KeyPath, "sShortTime", "h:mm:ss tt"
             objRegistry.SetStringValue hiveTarget, KeyPath, "sTimeFormat", "h:mm:ss tt"
             objRegistry.SetStringValue hiveTarget, KeyPath, "s1159", "AM"
             objRegistry.SetStringValue hiveTarget, KeyPath, "s2359", "PM"
