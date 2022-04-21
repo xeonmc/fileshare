@@ -51,6 +51,9 @@ Function MainDialogue()
             objRegistry.SetDWORDValue  hiveTarget, "Software\Microsoft\Windows\CurrentVersion\Themes\Personalize", "AppsUseLightTheme", 0 ' default to darktheme
             objRegistry.SetDWORDValue  hiveTarget, "Software\Microsoft\Windows\CurrentVersion\Themes\Personalize", "SystemUsesLightTheme", 0 'default to darktheme
             objRegistry.SetDWORDValue  hiveTarget, "Software\Microsoft\Windows\CurrentVersion\Search", "SearchboxTaskbarMode", 0 ' hide search bar
+            objRegistry.SetDWORDValue  hiveTarget, "Software\Microsoft\Windows\CurrentVersion\PrecisionTouchPad", "AAPThreshold", 0 ' do not disable touchpad while typing
+            objRegistry.SetDWORDValue  hiveTarget, "Software\Microsoft\Windows\CurrentVersion\PrecisionTouchPad", "EnableEdgy", 0 ' disable edgemotion
+            ' objRegistry.SetDWORDValue  hiveTarget, "Software\Microsoft\Windows\CurrentVersion\PrecisionTouchPad", "PanEnabled", 0 ' not sure what this does, need to experiment
             objRegistry.SetDWORDValue  hiveTarget, "Software\Microsoft\Multimedia\Audio", "UserDuckingPreference", 3 ' don't lower system volume when there's communication audio
             objRegistry.SetDWORDValue  hiveTarget, "System\GameConfigStore", "GameDVR_Enabled", 0 ' 
             objRegistry.SetDWORDValue  hiveTarget, "System\GameConfigStore", "GameDVR_FSEBehavior", 2 ' 
