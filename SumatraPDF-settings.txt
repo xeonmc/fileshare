@@ -1,0 +1,328 @@
+﻿# For documentation, see https://www.sumatrapdfreader.org/settings/settings3-4-6.html
+FixedPageUI [
+	TextColor = #c9d1d9
+	BackgroundColor = #0d1117
+	SelectionColor = #f5fc0c
+	WindowMargin = 2 4 2 4
+	PageSpacing = 4 4
+	HideScrollbars = false
+	FontName = Arial
+	FontSize = 12.5
+]
+ComicBookUI [
+	WindowMargin = 0 0 0 0
+	PageSpacing = 4 4
+	CbxMangaMode = false
+]
+ChmUI [
+	UseFixedPageUI = false
+]
+
+SelectionHandlers [
+]
+ExternalViewers [
+]
+
+ZoomLevels = 8.33 12.5 18 25 33.33 50 66.67 75 100 125 150 200 300 400 600 800 1000 1200 1600 2000 2400 3200 4800 6400
+ZoomIncrement = 0
+
+PrinterDefaults [
+	PrintScale = shrink
+]
+ForwardSearch [
+	HighlightOffset = 0
+	HighlightWidth = 15
+	HighlightColor = #6581ff
+	HighlightPermanent = false
+]
+Annotations [
+	HighlightColor = #ffff00
+	UnderlineColor = #00ff00
+	TextIconColor = #ffff00
+	TextIconType = 
+	DefaultAuthor = 
+]
+
+RememberOpenedFiles = true
+RememberStatePerDocument = true
+RestoreSession = true
+UiLanguage = en
+EnableTeXEnhancements = false
+DefaultDisplayMode = facing
+DefaultZoom = fit page
+Shortcuts [
+]
+EscToExit = false
+ReuseInstance = false
+ReloadModifiedDocuments = true
+
+MainWindowBackground = #161b22
+FullPathInTitle = true
+ShowMenubar = true
+ShowToolbar = true
+ShowFavorites = false
+ShowToc = true
+TocDy = 0
+SidebarDx = 446
+ToolbarSize = 18
+TabWidth = 300
+TreeFontSize = 0
+SmoothScroll = false
+ShowStartPage = true
+CheckForUpdates = true
+WindowState = 2
+WindowPos = 657 -8 672 870
+UseTabs = true
+UseSysColors = false
+CustomScreenDPI = 0
+
+FileStates [
+	[
+		FilePath = C:\Users\root\Documents\GitHub\TemeraireEpub\Ebooks\En\9-League_of_Dragons.epub
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = book view
+		ScrollPos = -1 -1
+		PageNo = 298
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 657 -8 672 870
+		ShowToc = true
+		SidebarDx = 446
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\su\Documents\GitHub\TemeraireEpub\Ebooks\En\Golden_Age_and_Other_Stories_-_Naomi_Novik.epub
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = facing
+		ScrollPos = -1 -1
+		PageNo = 69
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 657 -8 672 870
+		ShowToc = true
+		SidebarDx = 446
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\su\Documents\GitHub\TemeraireEpub\Ebooks\En\4-Empire_of_Ivory.epub
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = facing
+		ScrollPos = -1 -1
+		PageNo = 83
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 657 -8 672 870
+		ShowToc = true
+		SidebarDx = 446
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\su\Documents\GitHub\TemeraireEpub\Ebooks\En\3-Black_Powder_War.epub
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = facing
+		ScrollPos = -1 -1
+		PageNo = 161
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 657 -8 672 870
+		ShowToc = true
+		SidebarDx = 446
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\root\Downloads\temeraire\Par_les_chemins_de_la_soie_-_Naomi_Novik.epub
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = facing
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 657 -8 672 870
+		ShowToc = true
+		SidebarDx = 446
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\root\Downloads\temeraireEng\1-His_Majestys_Dragon.epub
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 220
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 657 -8 672 870
+		ShowToc = true
+		SidebarDx = 446
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\root\Downloads\temeraireEng\2-Throne_of_Jade.epub
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = facing
+		ScrollPos = -1 -1
+		PageNo = 191
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 657 -8 672 870
+		ShowToc = false
+		SidebarDx = 446
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\root\Documents\GitHub\TemeraireEpub\Ebooks\En\7-Crucible_of_Gold.epub
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = facing
+		ScrollPos = -1 -1
+		PageNo = 241
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 657 -8 672 870
+		ShowToc = true
+		SidebarDx = 446
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\root\Documents\GitHub\TemeraireEpub\Ebooks\En\8-Blood_of_Tyrants.epub
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous book view
+		ScrollPos = -1 -1
+		PageNo = 318
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 657 -8 672 870
+		ShowToc = true
+		SidebarDx = 446
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 5 13 22
+	]
+	[
+		FilePath = C:\Users\su\Documents\GitHub\TemeraireEpub\Ebooks\En\5-Victory_of_Eagles.epub
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = book view
+		ScrollPos = -1 -1
+		PageNo = 132
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 657 -8 672 870
+		ShowToc = true
+		SidebarDx = 446
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\root\Downloads\temeraireEn\6-Tongues_of_Serpents.epub
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = facing
+		ScrollPos = -1 -1
+		PageNo = 63
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 657 -8 672 870
+		ShowToc = true
+		SidebarDx = 446
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\root\Downloads\iczelion\Iczelion.chm
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = 0 0
+		PageNo = 4
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 657 -8 672 870
+		ShowToc = true
+		SidebarDx = 446
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 3 39
+	]
+]
+SessionData [
+]
+TimeOfLastUpdateCheck = 30987046 -838047074
+OpenCountWeek = 612
+
+# Settings below are not recognized by the current version
