@@ -1,6 +1,6 @@
 Word Mobile:
 
-ms-windows-store://pdp?productid=9WZDNCRFJB9S
+ms-windows-store://pdp?productid=9wzdncrfjb9s
 
 Excel Mobile:
 
